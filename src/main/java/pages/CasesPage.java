@@ -8,7 +8,7 @@ import utilities.CucumberBaseClass;
 
 public class CasesPage extends CucumberBaseClass{
 	
-	//finds the btn_Cases
+	
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'Cases')]")
 	public static WebElement btn_Cases;
 	
